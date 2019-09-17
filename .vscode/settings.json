@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "BIDIRECTION.C": "cpp",
+        "RADIO.C": "cpp",
+        "JSONJOB.C": "cpp",
+        "FRAME.C": "cpp",
+        "ENDDEVICE.C": "cpp",
+        "APPDATA.C": "cpp"
+    }
+}
