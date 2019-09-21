@@ -1,7 +1,7 @@
 End Device GPS tracker for RaspberryPi and Dragino GPS HAT
 ====================================================
 
-This Software is Lora end device GPS tracker sample.  
+This Software is Lora Eed Device GPS Tracker sample.  
 Tested only Dragino GPS HAT (SX1276), NOT tested SX1272.  
 
 How to use:  
@@ -15,10 +15,9 @@ It is adapted for TTN (http://thethingsnetwork.org).
 This implementation is for personal experiments.  
 
 GPS data is sent with cayenne-lpp foramat.  
-You can select Cayenne LPP format on TTN console payload formats.  
 
 License:The source files in this repository are made available under the EclipsePublic License v1.0, except for the aes implementation, that has been copied from the lmic_pi https://github.com/ernstdevreede/lmic_pi, 
-cayenne_lpp copied from the cayenne_lpp https://github.com/aabadie/cayenne-lpp  
+cayenne_lpp has been copied from the cayenne_lpp https://github.com/aabadie/cayenne-lpp  
 
 This repositry is forked from simgle_chan_pkt_fwd, https://github.com/tftelkamp/single_chan_pkt_fwd .  
 ====================================================

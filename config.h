@@ -14,7 +14,7 @@
 // Default RX2
 #define FREQ_RX2    923200000
 
-#define DEFAULT_KEEPALIVE   15  // default time interval for tx
+#define DEFAULT_KEEPALIVE   30  // default time interval for tx
 #define DEFAULT_RX1     1       // default RX1 time in second
 #define DEFAULT_RX2     1
 

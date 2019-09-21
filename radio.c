@@ -316,14 +316,14 @@ int rf_receivepacket(void) {
 }
 
 void transmitPkt(buf_t* tbuf){
-    uint8_t i;
+    uint8_t i=0;
 
-    assert( readRegister(REG_OPMODE) == SX72_MODE_RX_CONTINUOS);
+    //assert( readRegister(REG_OPMODE) == SX72_MODE_RX_CONTINUOS);
     // Stop Rx, enter standby mode (required for FIFO loading))
     //writeRegister(REG_OPMODE, SX72_MODE_STDBY);
 
     set_Opmode(SX72_MODE_STDBY);
-    assert( readRegister(REG_OPMODE) == SX72_MODE_STDBY);
+    //assert( readRegister(REG_OPMODE) == SX72_MODE_STDBY);
     // configure LoRa modem (cfg1, cfg2,cfg3)
     cfg_Modem();
     
@@ -363,7 +363,7 @@ void transmitPkt(buf_t* tbuf){
 }
 
 void rf_transmitpacket(buf_t* tbuf_p){
-    int i;
+    int i=0;
     printf("\t%d bytes PHYPayload to tx. ", tbuf_p->bytes);
     for(i=0; i< tbuf_p->bytes; i++){
         printf("%#x:",tbuf_p->buf[i]);
