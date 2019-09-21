@@ -19,7 +19,7 @@ GPS data is sent with cayenne-lpp foramat.
 License:The source files in this repository are made available under the EclipsePublic License v1.0, except for the aes implementation, that has been copied from the lmic_pi https://github.com/ernstdevreede/lmic_pi, 
 cayenne_lpp has been copied from the cayenne_lpp https://github.com/aabadie/cayenne-lpp  
 
-This repositry is forked from simgle_chan_pkt_fwd, https://github.com/tftelkamp/single_chan_pkt_fwd .  
+This repositry is forked from single_chan_pkt_fwd, https://github.com/tftelkamp/single_chan_pkt_fwd .  
 
 ====================================================
 
